@@ -178,6 +178,6 @@ sub_df.columns = ['order_id', 'products']
 
 sub_df.head()
 
-sub_df.to_csv('instacart_submission.csv')
+sub_df.to_csv('instacart_submission.csv', index = False)
 
 !jupyter nbconvert --config instacart.py
